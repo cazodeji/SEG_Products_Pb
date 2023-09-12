@@ -1,0 +1,21 @@
+# package directories
+node_modules
+jspm_packages
+
+# Serverless directories
+.serverless
+.env*
+
+# esbuild directories
+.esbuild
+
+.dynamodb
+
+.DS_Store
+
+src/brokers
+
+.lh
+!.env.example
+src/functions/v1/test/handler.ts
+src/functions/v1/test/index.ts

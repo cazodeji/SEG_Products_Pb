@@ -18,7 +18,7 @@ export default {
         authorizer: {
           type: 'COGNITO_USER_POOLS',
           scopes: ['aws.cognito.signin.user.admin'],
-          authorizerId: {'Fn::ImportValue': 'mono-repo-congnitoUserPoolAuthorizerForAuth'},
+          authorizerId: { 'Fn::ImportValue': 'mono-repo-congnitoUserPoolAuthorizerForAuth' },
         },
       },
     },

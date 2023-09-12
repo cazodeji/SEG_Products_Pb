@@ -11,7 +11,7 @@ import type { AWS } from '@serverless/typescript';
 
 const serverlessConfiguration: AWS = {
   useDotenv: true,
-  service: 'seg-pb-payments',
+  service: 'seg-pb-products',
   frameworkVersion: '3',
   plugins: [
     'serverless-esbuild',

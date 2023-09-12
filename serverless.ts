@@ -1,11 +1,11 @@
+import addBrokerToProduct from '@sg/functions/v1/add-broker-to-product';
+import changeProductState from '@sg/functions/v1/change-product-state';
+import createProduct from '@sg/functions/v1/create-product';
+import createProductCategory from '@sg/functions/v1/create-product-category';
 import getProduct from '@sg/functions/v1/get-product';
 import getProductBroker from '@sg/functions/v1/get-product-broker';
 import getProductCategories from '@sg/functions/v1/get-product-categories';
 import getProducts from '@sg/functions/v1/get-products';
-import createProduct from '@sg/functions/v1/create-product';
-import createProductCategory from '@sg/functions/v1/create-product-category';
-import addBrokerToProduct from '@sg/functions/v1/add-broker-to-product';
-import changeProductState from '@sg/functions/v1/change-product-state';
 
 import type { AWS } from '@serverless/typescript';
 

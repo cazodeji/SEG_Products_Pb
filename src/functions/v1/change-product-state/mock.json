@@ -1,0 +1,6 @@
+{
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": "{ \"productId\": \"pro-7008391d-8872-4bba-96cc-9accf0de0afc\", \"brokerId\": \"com-ee806554-40d4-41d4-ac13-8cb803197b10\", \"state\": \"active\" }"
+}
